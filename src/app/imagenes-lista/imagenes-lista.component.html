@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let item of listaNombres" (click)="selectImage(item)">
+        <app-imagen-item [nombre]="item"></app-imagen-item>
+    </li>
+</ul>

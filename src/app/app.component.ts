@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'prueba-tutorial-angular';
+  nombreSeleccionado!: string;
+
+  handleNameSelected(name: string) {
+    this.nombreSeleccionado = name;
+  }
 }
